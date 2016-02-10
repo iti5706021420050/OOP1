@@ -19,8 +19,8 @@ public class Skocimis {
 			}
 		}
 		if(a<0||a>99){System.out.println("Number error JingJO NO.1-");wrong=1;}
-		else if(b<a||b>99){System.out.println("Number error JingJO NO.2-");wrong=1;}
-		else if(b>c||c>99){System.out.println("Number error JingJO NO.3-");wrong=1;}
+			else if(b<a||b>99){System.out.println("Number error JingJO NO.2-");wrong=1;}
+			else if(b>c||c>99){System.out.println("Number error JingJO NO.3-");wrong=1;}
 			if(0<a&&a<b&&b<c&&c<100&&wrong==0){
 			jump = ((b-a)>=(c-b))?(b-a):(c-b);
 			System.out.println(jump-1);
