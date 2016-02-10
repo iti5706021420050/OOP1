@@ -10,10 +10,10 @@
 		}while(result.length()>49); 	
 		 
 		 for(int i=0;i<result.length();i++){
-			if(result.charAt(i)=='B'){ 	
+			 if(result.charAt(i)=='B'){ 	
 			if(ball1>ball2) {ball1=0; ball2=1;} 	
-				else if(ball2>ball1){ball1=1; ball2=0;} 	
-				else{ball1=0; ball2=0;} 		
+		 else if(ball2>ball1){ball1=1; ball2=0;} 	
+		 else{ball1=0; ball2=0;} 		
 		 } 			
 	 if(result.charAt(i)=='B'){ 		
 		 if(ball2>ball3){ball2=0; ball3=1;} 	
